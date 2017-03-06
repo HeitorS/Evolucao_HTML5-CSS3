@@ -18,7 +18,7 @@
             <!-- Começo da div places -->
             <div class='places'>
                 <!-- Começo da primeira parte do texto -->
-                <div class="place">
+                <div class="place" id="paulista">
                     <h2>Passear na Avenida Paulista!</h2>
                     <img src='images/paulista.jpg' height="156" width="156" alt="O céu da avenida Paulista,
                          foto por http://www.flickr.com/photos/jairo_abud"/>
@@ -27,7 +27,8 @@
                         também possui diversas opções de entretenimento. Endereço do Museu
                         de Arte de São Paulo, <em>MASP</em>, do Teatro Gazeta e muitos outros,
                         a região é de fácil acesso graças as diversas linhas de ônibus que
-                        cruzam a avenida e a linha de metrô que passa por baixo dela.
+                        cruzam a avenida e a linha de metrô que passa por baixo dela. 
+                        Saiba mais sobre a Avenida Paulista <a href="#p">clicando aqui.</a>
                     </p>
                     <p>
                         A Avenida Paulista sempre é assunto. O que será que estão falando a 
@@ -39,14 +40,15 @@
                 <!-- Fim da primeira parte do texto -->
 
                 <!-- Começo da segunda parte do texto -->
-                <div class="place">
+                <div class="place" id="madalena">
                     <h2>Os bares da Vila Madalena</h2>
                     <img src='images/piola.jpg' height="156" width="156" alt="A varanda do Armazém Piola,
                          foto por Fernando Moraes">
                     <p>
                         Depois de um dia de trabalho, nada melhor do que um bom chopp, um
                         petisco e uma conversa em uma mesa de bar. Opções de sobra na região
-                        das ruas Aspicuelta, Fradique Coutinho e Wisard.
+                        das ruas Aspicuelta, Fradique Coutinho e Wisard.Saiba mais sobre a 
+                        Vila Madalena <a href="#m">clicando aqui.</a>
                     </p>
                     <p>
                         Veja quais os melhores bares e restaurantes da região no
@@ -60,7 +62,7 @@
                 <!-- Fim da segunda parte do texto -->
 
                 <!-- Começo da terceira parte do texto -->
-                <div class="place">
+                <div class="place" id="ibirapuera">
                     <h2>O Parque do Ibirapuera</h2>
                     <img src='images/ibirapuera.jpg' height="156" width="156" alt="O Parque do Ibirapuera,
                          por http://www.flickr.com/photos/soldon/">
@@ -68,7 +70,8 @@
                         Um dos cartões postais da cidade, o parque dispõe de mais de 1,5 km{^2}
                         de área verde, lagos artificiais e pistas de cooper e ciclismo. E se
                         isso não fosse o suficiente, o parque costuma ser palco de diversos
-                        eventos culturais ao longo do ano.
+                        eventos culturais ao longo do ano.Saiba mais sobre o Parque Ibirapuera
+                        <a href="#i">clicando aqui.</a>
                     </p>
                     <p>
                         Veja no <a href='http://goo.gl/maps/HoH8' target='_blank'>mapa</a>
@@ -82,18 +85,95 @@
 
             <!-- Começo da barra lateral-->
             <div class='sidenote'>
-                <h3>E existem muitos outros lugares interessantes na cidade...</h3>
+                <h3>Menu de navegação</h3>
                 <ol>
-                    <li>O Mercado Municipal.</li>
-                    <li>A Sala São Paulo.</li>
-                    <li>Os estádios dos principais times de futebol da cidade.</li>
-                    <li>Diversos museus, como o Memorial da América Latina, Museu da
-                        Língua Portuguesa e o Museu do Ipiranga.
-                    </li>
+                    <li><a href="#paulista">Passear na Avenida Paulista.</a></li>
+                    <li><a href="#madalena">Bares da Vila Madalena</a></li>
+                    <li><a href="#ibirapuera">Parque do Ibirapuera</a></li>
                     <li>E mais!</li>
                 </ol>
             </div>
             <!-- Fim da barra lateral-->
+
+            <!-- Começo das divs modal Av. Paulista-->
+            <div id="p" class="bg">
+                <div class="box">
+                    <div class="header">Avenida Paulista</div>
+                    <div class="text-body">
+                        <p>
+                            Avenida Paulista, também poderia ser Avenida Bahiana, Avenida Mineira, Avenida Gaúcha,
+                            ou simplesmente Avenida Brasileira. Avenida de todos, generosa que bem conhece a arte
+                            de acolher de toda maneira.
+                            <br/>
+                            Um dia reduto do senhor do café e dos barões dos magníficos casarões, hoje tem o senhor
+                            dos valores, o senhor anônimo, tem os doutores, tem até senhoras da reza, em um ponto a
+                            Catarina Santa, em outro o Luís que é no colégio um santo que se preza.
+                            <br/>
+                            E se queres ir mais longe ainda, em busca de milagres, ela nos direciona para São Judas
+                            santo de fé e de Nossa Senhora de Fátima, lá no Sumaré.
+                            <br/>
+                            Avenida da vida, avenida da diva, da exuberância. Passarela de moças bonitas e de
+                            rapazes elegantes, da mulher bela e do homem sério que transborda em importância.
+                        </p>
+                    </div>
+                    <a href="" id="close">X</a>
+                </div>
+            </div>
+            <!-- Fim das divs modal Av. Paulista-->
+            
+            <!-- Começo das divs modal Vila Madalena-->
+            <div id="m" class="bg">
+                <div class="box">
+                    <div class="header">Vila Madalena</div>
+                    <div class="text-body">
+                        <p>
+                            A Vila Madalena - ou Vila Madá como dizem os mais íntimos – é um dos bairros mais badalados e
+                            agitados de São Paulo e um dos mais descolados do mundo. São inúmeros bares, restaurantes,
+                            galerias, grafites, baladas e lojas espalhadas por ruas com nomes inusitados, como a Aspicuelta
+                            (um padre espanhol do século 16), a Girassol, a Purpurina ou a Wisard.
+                            <br/>
+                            E cada estabelecimento tem seu jeitinho especial. Têm os botecos clássicos, daqueles com
+                            azulejos na parede, chope gelado, futebol e caldinho de feijão, como o Filial e o
+                            São Cristovão, e os com algo a mais, como a Mercearia São Pedro e o Salve Jorge - que dá
+                            desconto pra qualquer um que se chame Jorge.
+                            <br/>
+                            Ou um mais moderninho, que mistura bar com restaurante de culinária espanhola e brasileira,
+                            que ainda possui uma simpática cadela e muita música. É a Casa da Maria Madalena. 
+                            Marido de Maria, o Zé, dá nome à balada Zé Presidente, que tem festas variadas, com música
+                            brasileira e até ritmos latinos.
+                        </p>
+                    </div>
+                    <a href="" id="close">X</a>
+                </div>
+            </div>
+            <!-- Fim das divs modal Vila Madalena-->
+            
+            <!-- Começo das divs modal Pq. Ibirapuera-->
+            <div id="i" class="bg">
+                <div class="box">
+                    <div class="header">Parque Ibirapuera</div>
+                    <div class="text-body">
+                        <p>
+                            Inaugurado em 1954, durante as comemorações de 400 anos de São Paulo, o Parque Ibirapuera
+                            não só é o mais freqüentado e conhecido parque de São Paulo, como também uma das mais 
+                            importantes áreas de cultura e lazer da cidade.
+                            <br/>
+                            <br/>
+                            Para quem busca somente ter um momento de tranqüilidade em meio à natureza, o Ibirapuera
+                            também é o local ideal, já que abriga 494 espécies vegetais, além de 35 de borboletas, dez
+                            de peixes, oito de répteis e 156 espécies de aves.
+                            <br/>
+                            <br/>
+                            De fácil acesso através de transporte público (ônibus) e da ciclofaixa de lazer (Circuito 
+                            Zona Oeste e Circuito Paulista Centro), é muito fácil entender porque este é um dos locais
+                            favoritos do paulistano. O parque conta com lanchonetes, áreas de estar, parque infantil,
+                            uma fonte multimídia e atividades o dia inteiro e todos os dias.
+                        </p>
+                    </div>
+                    <a href="" id="close">X</a>
+                </div>
+            </div>
+            <!-- Fim das divs modal Pq. Ibirapuera-->
         </div>
         <!-- Fim da div container-->
 
