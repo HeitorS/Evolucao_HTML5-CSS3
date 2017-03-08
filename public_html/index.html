@@ -4,21 +4,19 @@
         <meta charset="UTF-8">
         <title>O que eu mais gosto em São Paulo</title>
         <!-- Chamada de CSS -->
-        <link rel="stylesheet" href="normalize.css">
-        <!-- Chamada de JavaScript -->
-        <script src="prefixfree.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!-- Começo da div container -->
         <div class="container">
             <!-- Começo do slide-->
-            <ul>
+            <ul class="list-img">
                 <li><a href="#img1"><img src="images/01.jpg" class="min"/></a></li>
                 <li><a href="#img2"><img src="images/02.jpg" class="min"/></a></li>
                 <li><a href="#img3"><img src="images/03.jpg" class="min"/></a></li>
                 <li><a href="#img4"><img src="images/04.jpg" class="min"/></a></li>
             </ul>
-            
+
             <div class="lbox" id="img1">
                 <div class="box_img">
                     <a href="#img4" class="btn" id="prev">&#171;</a>
@@ -52,7 +50,7 @@
                 </div>
             </div>
             <!-- Fim do slide-->
-            
+
             <!-- Titulo do conteúdo -->
             <section>
                 <h1><a href=''>O que eu mais gosto em São Paulo</a></h1>
@@ -125,17 +123,38 @@
             </div>
             <!-- Fim da div places -->
 
-            <!-- Começo da barra lateral-->
+            <!-- Começo Menu Lateral-->
             <div class='sidenote'>
-                <h3>Menu de navegação</h3>
-                <ol>
-                    <li><a href="#paulista">Passear na Avenida Paulista.</a></li>
-                    <li><a href="#madalena">Bares da Vila Madalena</a></li>
-                    <li><a href="#ibirapuera">Parque do Ibirapuera</a></li>
-                    <li>E mais!</li>
-                </ol>
+                <nav>
+                    <div class="item">
+                        <input type="checkbox" id="check1"/>
+                        <label for="check1">Artigos</label>
+                        <ul>
+                            <li><a href="#paulista">Avenida Paulista</a></li>
+                            <li><a href="#madalena">Vila Madalena</a></li>
+                            <li><a href="#ibirapuera">Parque Ibirapuera</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" id="check2"/>
+                        <label for="check2">Imagens</label>
+                        <ul>
+                            <li><a href="">Galeria da Avenida Paulista</a></li>
+                            <li><a href="">Galeria da Vila Madalena</a></li>
+                            <li><a href="">Galeria do parque Ibirapuera</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" id="check3"/>
+                        <label for="check3">Menu</label>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Sobre</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <!-- Fim da barra lateral-->
+            <!-- Fim Menu Lateral-->
 
             <!-- Começo das divs modal Av. Paulista-->
             <div id="p" class="bg">
@@ -162,7 +181,7 @@
                 </div>
             </div>
             <!-- Fim das divs modal Av. Paulista-->
-            
+
             <!-- Começo das divs modal Vila Madalena-->
             <div id="m" class="bg">
                 <div class="box">
@@ -189,7 +208,7 @@
                 </div>
             </div>
             <!-- Fim das divs modal Vila Madalena-->
-            
+
             <!-- Começo das divs modal Pq. Ibirapuera-->
             <div id="i" class="bg">
                 <div class="box">
